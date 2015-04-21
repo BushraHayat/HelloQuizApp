@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      	<link href="main.css" rel="stylesheet" type="text/css"/>
+<script>
+function calle()
+{
+alert("hhey");
+$("#ran").append('<a href="#phonePage">going to page one</a> ');
+}
+
+</script>
+</head>
+<body>
+<div data-role="page" id="start" ">
+<img src="options/sound.png"  id="sound" onclick="calle()" ></img>
+<div id="ran"></div>
+</div>
+
+<div data-role="page" id="phonePage" >
+i am phone
+<a href="tel:+496170961709" >Call me</a>
+</div>
+
+</body>
+</html>
